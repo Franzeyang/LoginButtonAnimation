@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		382D5C3E1EE66782004FDE94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D5C3D1EE66782004FDE94 /* AppDelegate.swift */; };
+		382D5C431EE66782004FDE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382D5C411EE66782004FDE94 /* Main.storyboard */; };
+		382D5C461EE66782004FDE94 /* LoginButtonAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 382D5C441EE66782004FDE94 /* LoginButtonAnimation.xcdatamodeld */; };
+		382D5C481EE66783004FDE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382D5C471EE66783004FDE94 /* Assets.xcassets */; };
+		382D5C4B1EE66783004FDE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382D5C491EE66783004FDE94 /* LaunchScreen.storyboard */; };
+		382D5C531EE667C5004FDE94 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D5C521EE667C5004FDE94 /* CustomButton.swift */; };
+		382D5C551EE667E1004FDE94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D5C541EE667E1004FDE94 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		382D5C3A1EE66782004FDE94 /* LoginButtonAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginButtonAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		382D5C3D1EE66782004FDE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		382D5C421EE66782004FDE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		382D5C451EE66782004FDE94 /* LoginButtonAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginButtonAnimation.xcdatamodel; sourceTree = "<group>"; };
+		382D5C471EE66783004FDE94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		382D5C4A1EE66783004FDE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		382D5C4C1EE66783004FDE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		382D5C521EE667C5004FDE94 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		382D5C541EE667E1004FDE94 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		382D5C371EE66782004FDE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		382D5C311EE66782004FDE94 = {
+			isa = PBXGroup;
+			children = (
+				382D5C3C1EE66782004FDE94 /* LoginButtonAnimation */,
+				382D5C3B1EE66782004FDE94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		382D5C3B1EE66782004FDE94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				382D5C3A1EE66782004FDE94 /* LoginButtonAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		382D5C3C1EE66782004FDE94 /* LoginButtonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				382D5C3D1EE66782004FDE94 /* AppDelegate.swift */,
+				382D5C541EE667E1004FDE94 /* ViewController.swift */,
+				382D5C521EE667C5004FDE94 /* CustomButton.swift */,
+				382D5C411EE66782004FDE94 /* Main.storyboard */,
+				382D5C471EE66783004FDE94 /* Assets.xcassets */,
+				382D5C491EE66783004FDE94 /* LaunchScreen.storyboard */,
+				382D5C4C1EE66783004FDE94 /* Info.plist */,
+				382D5C441EE66782004FDE94 /* LoginButtonAnimation.xcdatamodeld */,
+			);
+			path = LoginButtonAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		382D5C391EE66782004FDE94 /* LoginButtonAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 382D5C4F1EE66783004FDE94 /* Build configuration list for PBXNativeTarget "LoginButtonAnimation" */;
+			buildPhases = (
+				382D5C361EE66782004FDE94 /* Sources */,
+				382D5C371EE66782004FDE94 /* Frameworks */,
+				382D5C381EE66782004FDE94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginButtonAnimation;
+			productName = LoginButtonAnimation;
+			productReference = 382D5C3A1EE66782004FDE94 /* LoginButtonAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		382D5C321EE66782004FDE94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = franze;
+				TargetAttributes = {
+					382D5C391EE66782004FDE94 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 382D5C351EE66782004FDE94 /* Build configuration list for PBXProject "LoginButtonAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 382D5C311EE66782004FDE94;
+			productRefGroup = 382D5C3B1EE66782004FDE94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				382D5C391EE66782004FDE94 /* LoginButtonAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		382D5C381EE66782004FDE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382D5C4B1EE66783004FDE94 /* LaunchScreen.storyboard in Resources */,
+				382D5C481EE66783004FDE94 /* Assets.xcassets in Resources */,
+				382D5C431EE66782004FDE94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		382D5C361EE66782004FDE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382D5C531EE667C5004FDE94 /* CustomButton.swift in Sources */,
+				382D5C3E1EE66782004FDE94 /* AppDelegate.swift in Sources */,
+				382D5C551EE667E1004FDE94 /* ViewController.swift in Sources */,
+				382D5C461EE66782004FDE94 /* LoginButtonAnimation.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		382D5C411EE66782004FDE94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382D5C421EE66782004FDE94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		382D5C491EE66783004FDE94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382D5C4A1EE66783004FDE94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		382D5C4D1EE66783004FDE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		382D5C4E1EE66783004FDE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		382D5C501EE66783004FDE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = franze.LoginButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		382D5C511EE66783004FDE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = franze.LoginButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		382D5C351EE66782004FDE94 /* Build configuration list for PBXProject "LoginButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382D5C4D1EE66783004FDE94 /* Debug */,
+				382D5C4E1EE66783004FDE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		382D5C4F1EE66783004FDE94 /* Build configuration list for PBXNativeTarget "LoginButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382D5C501EE66783004FDE94 /* Debug */,
+				382D5C511EE66783004FDE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		382D5C441EE66782004FDE94 /* LoginButtonAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				382D5C451EE66782004FDE94 /* LoginButtonAnimation.xcdatamodel */,
+			);
+			currentVersion = 382D5C451EE66782004FDE94 /* LoginButtonAnimation.xcdatamodel */;
+			path = LoginButtonAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 382D5C321EE66782004FDE94 /* Project object */;
+}
