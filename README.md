@@ -1,3 +1,1 @@
 # LoginButtonAnimation
-# LoginButtonAnimation
-# LoginButtonAnimation
